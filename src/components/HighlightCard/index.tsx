@@ -15,7 +15,7 @@ export function HighlightCard() {
       </Header>
 
       <Footer>
-        <Amount>R$ 17.400,00</Amount>
+        <Amount>R$ 400,00</Amount>
         <LastTransaction>
           Última entrada dia 13 de abril
           </LastTransaction>
