@@ -25,6 +25,7 @@ export default function App() {
   }
   return (
     <ThemeProvider theme={theme}>
+      <StatusBar translucent barStyle="default" />
       <Dashboard />
     </ThemeProvider>
   )
