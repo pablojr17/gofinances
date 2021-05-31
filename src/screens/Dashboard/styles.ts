@@ -21,7 +21,7 @@ export const UserWrapper = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: ${getStatusBarHeight() + RFValue(28)};
+  margin-top: ${getStatusBarHeight() + RFValue(28)}px;
 `;
 
 export const UserInfo = styled.View`
@@ -77,3 +77,6 @@ export const Title = styled.Text`
   font-family: ${({ theme }) => theme.fonts.regular};
   margin-bottom: 16px;
 `;
+
+export const TransactionList = styled.FlatList`
+`
