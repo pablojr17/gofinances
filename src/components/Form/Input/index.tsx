@@ -9,5 +9,3 @@ export function Input({ ...rest }: Props) {
     <Container {...rest} />
   )
 }
-
-export default Input;
