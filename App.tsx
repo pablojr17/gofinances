@@ -29,7 +29,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <StatusBar backgroundColor={theme.colors.primary} />
-      <CategorySelect />
+      <Register />
     </ThemeProvider>
   )
 }
